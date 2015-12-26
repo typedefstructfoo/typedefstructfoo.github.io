@@ -1,0 +1,94 @@
+
+*
+{
+    margin:0;
+    padding:0;
+}
+
+canvas
+{
+    display:block;
+}
+
+body
+{
+    background: black;
+    color: white;
+}
+
+.intro
+{
+    width:540px;
+    padding: 10px;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translateX(-50%)translateY(-50%);
+}
+
+.button_y, .button_n
+{
+    text-decoration: none;
+    font-size: 25px;
+    display:block;
+    margin-bottom: 5px;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    color: white;
+    border-radius: 4px;
+}
+
+.button_y
+{
+    background: #ff5f5f;
+}
+
+.button_n
+{
+    background: #5f5fff;
+}           
+
+.button_y:hover
+{
+    background-color: #ff0000;
+}
+
+.button_n:hover
+{
+    background-color: #0000ff;
+}
+
+.button_y:active
+{
+    color: #ff0000;
+    background-color: #000000;
+}
+
+.button_n:active
+{
+    color: #0000ff;
+    background-color: #000000;
+}
+
+h1:hover
+{
+    color:yellow;
+}
+
+a
+{
+    color:white;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color:black;
+    background:white;
+}
+
+a#github
+{
+    float:right;
+}
